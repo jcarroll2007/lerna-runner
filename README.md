@@ -45,4 +45,4 @@ yarn runner
 
 - **Why is it not finding any scripts?**
 
-After using the `workspaces` entry to find your packages and you select a package, `lerna-runner`
+After using the `workspaces` entry to find your packages and you select a package, `lerna-runner` extracts and displays a list of that packages `scripts` from its `package.json`. Make sure you have `scripts` defined in the package's `package.json` file.

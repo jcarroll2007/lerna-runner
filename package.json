@@ -14,5 +14,8 @@
     "globby": "^8.0.1",
     "inquirer": "^6.2.0",
     "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "lerna-runner": "^0.0.2"
   }
 }

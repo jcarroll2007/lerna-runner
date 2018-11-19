@@ -636,6 +636,16 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
+lerna-runner@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/lerna-runner/-/lerna-runner-0.0.2.tgz#f8934f4455a3f0b149107bb511d3f49b679c71b4"
+  integrity sha512-hhVGNUQIutDPvsOKto/EnMDHT210mGGloy4cXidl8ArMRrbJwZqFLHh/BVTIQdzvbDcctpXSSBNO4Bpxump3ag==
+  dependencies:
+    chalk "2.4.1"
+    globby "^8.0.1"
+    inquirer "^6.2.0"
+    shelljs "^0.8.3"
+
 lodash@^4.17.10:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"

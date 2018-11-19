@@ -5,18 +5,17 @@ const fs = require('fs')
 const path = require('path')
 const inquirer = require('inquirer')
 const chalk = require('chalk')
-const pkgJson = require('./package.json')
 const globby = require('globby')
 const shell = require('shelljs')
 
-
-// add error messaging similar to how commitizen does it.
+const cwd = process.cwd()
+const pkgJson = require(path.join(cwd, 'package.json'))
 
 // Ask the user which package they would like to run the script in.
 async function promptPackage() {
   const { workspaces } = pkgJson
   const globOpts = {
-    cwd: __dirname,
+    cwd,
     strict: true,
     absolute: true
   }
@@ -86,6 +85,10 @@ const run = async () => {
     chalk.red(name),
     chalk.yellow('\n-----------------------------')
   )
+
+
+  shell.cd(path)
+  shell.exec(command)
 }
 
 run()

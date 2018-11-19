@@ -1,0 +1,18 @@
+{
+  "name": "lerna-runner",
+  "version": "0.0.1",
+  "description": "A CLI to run scripts for monorepo packages.",
+  "main": "index.js",
+  "repository": "git@github.com:jcarroll2007/lerna-runner.git",
+  "author": "Jordan Carroll <jordanc@purecars.com>",
+  "license": "MIT",
+  "bin": {
+    "lerna-runner": "./runner.js"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "globby": "^8.0.1",
+    "inquirer": "^6.2.0",
+    "shelljs": "^0.8.3"
+  }
+}

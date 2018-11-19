@@ -1,6 +1,6 @@
 {
   "name": "lerna-runner",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A CLI to run scripts for monorepo packages.",
   "main": "index.js",
   "repository": "git@github.com:jcarroll2007/lerna-runner.git",
